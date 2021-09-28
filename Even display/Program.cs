@@ -14,6 +14,17 @@ namespace Even_display
                     Console.WriteLine(i);
                 }
             }
+
+            bool runProgram = true;
+            while (runProgram)
+            {
+                Console.WriteLine("Would you like to continue? y/n");
+                string input = Console.ReadLine();
+                if(input == "n")
+                {
+                    runProgram = false;
+                }
+            }
         }
     }
 }
